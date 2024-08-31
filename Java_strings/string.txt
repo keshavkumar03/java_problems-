@@ -1,0 +1,120 @@
+1.Valid Anagram
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a 
+different word or phrase, typically using all the original letters exactly once.
+
+
+
+Example 1:
+
+Input: s = "anagram", t = "nagaram"
+
+Output: true
+
+
+Example 2:
+
+Input: s = "rat", t = "car"
+
+Output: false
+
+
+Constraints:
+
+1 <= s.length, t.length <= 5 * 10^4
+
+s and t consist of lowercase English letters.
+
+2.Is String a palindrome?
+Implement a function that takes a string S as argument and returns 1 if it is palindrome or 0 otherwise.
+
+
+
+Sample Input
+
+abcde
+
+aabaa
+
+Sample Output
+
+0
+
+1
+
+Explanation : 
+
+for test case one, S[3..4] is not mirror image of S[0..1], hence S is not palindrome.
+
+Similarly for test case two, S[3..4] is mirror image of S[0..1], hence S is palindrome
+
+3.Upper to Lower
+Given a string s  which contains only lowercase and uppercase English characters,
+ your task is to print the string in lowercase.
+
+
+
+Example 1.
+
+Input: s = "Coding"
+
+Output: coding
+
+
+Example 2.
+
+Input: s = "JAvA"
+
+Output: java
+
+
+Constraints: 0 <= s.length <= 100
+
+4.Largest Frequency character
+Implement a function that takes a String a argument and returns the largest 
+Frequency character.
+
+Sample Input
+
+abbbccccdd
+
+avddda
+
+
+Sample Output
+
+c
+
+d
+
+Explanation :
+
+for test case one, c is the largest frequency character,
+
+Similarty for second test case, d is the largest frequency character.
+
+5.All Alphabets present or not ?
+Given a string SImplement a function which takes S as argument and
+return 1 if S contains all alphabets from a to z otherwise 0.
+
+
+Sample Input
+
+amnffbcdefghijklmnopqrstuvwxyxzqq
+
+abcfhedhg
+
+Sample Output
+
+1
+
+0
+
+
+
+Explanation : 
+
+for test case one, S contains all characters from a to z.
+
+Similarly for test case two, S does not contains all characters from a to z.
+5.
